@@ -1,7 +1,9 @@
 FROM node:14
 
 # Create app directory
-WORKDIR /Users/muga/Desktop/directory-tree/
+WORKDIR /
+
+ADD . /
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
