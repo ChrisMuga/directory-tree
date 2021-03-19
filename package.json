@@ -1,0 +1,16 @@
+{
+  "name": "directory-tree",
+  "version": "1.0.0",
+  "description": "An API that drills down a directory and returns a listing",
+  "author": "Chris Muga <chrismuga94@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0",
+    "nodemon": "latest"
+  }
+}
