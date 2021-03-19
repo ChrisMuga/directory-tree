@@ -36,6 +36,7 @@ app.use(
   })
 );
 
+app.use(express.json());
 app.use(
   "/graphql",
   graphqlHTTP({
@@ -44,7 +45,6 @@ app.use(
     graphiql: true,
   })
 );
-app.use(express.json());
 
 app.post("/directory-tree", (req, res) => {
   const testFolder = req.body.path;
